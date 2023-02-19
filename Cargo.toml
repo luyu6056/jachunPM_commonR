@@ -1,0 +1,17 @@
+[package]
+name = "jachunPM_commonR"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1.25.0", features = ["full"] }
+net = { path ="./net"}
+protocol = { path ="./protocol"}
+codec = { path ="./codec"}
+tokio-native-tls = "0.3.0"
+async-trait = "0.1.64"
+chrono = "0.4.23"
+async-channel = "1.8.0"
+hyper = { version = "0.14", features = ["full"] }

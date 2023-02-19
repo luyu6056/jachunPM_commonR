@@ -1,0 +1,14 @@
+pub const CMD_MSG_LOG_Action:u32 = 3201270531;
+pub const CMD_MSG_LOG_History:u32 = 3290462211;
+pub const CMD_MSG_LOG_Action_Create:u32 = 3156992259;
+pub const CMD_MSG_LOG_Action_Create_result:u32 = 3006122243;
+pub const CMD_MSG_LOG_Action_GetByWhereMap:u32 = 3133100803;
+pub const CMD_MSG_LOG_Action_GetByID:u32 = 488167427;
+pub const CMD_MSG_LOG_Action_GetByID_result:u32 = 1253762819;
+pub const CMD_MSG_LOG_Action_GetByWhereMap_result:u32 = 3484282115;
+pub const CMD_MSG_LOG_Action_transformActions:u32 = 1875485187;
+pub const CMD_MSG_LOG_Action_transformActions_result:u32 = 2652701187;
+pub const CMD_MSG_LOG_transformActions_info:u32 = 1937124355;
+pub const CMD_MSG_LOG_Action_AddHistory:u32 = 882194947;
+pub const CMD_MSG_LOG_Action_set_read:u32 = 3718197507;
+pub const CMD_MSG_LOG_Action_update_by_map:u32 = 3587217923;
